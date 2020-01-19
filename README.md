@@ -1,2 +1,1 @@
-# portfolio
-Bootcamp Portfolio 1.2
+# Bootstrap-Portfolio

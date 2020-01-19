@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tony Waterfield Web Development</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <!-- CSS CUSTOMIZATION AFTER BOOTSTRAP-->
+  <style>
+      body {
+          background-color: lightgray;
+      }
+      h1 {
+          text-align: center;
+          font-size: 50px;
+          font-style: italic;
+          border: solid; 
+          color: white;
+      }
+      
+      .navbar-header {
+          text-align: center;
+          width: 80%;
+          margin:auto;
+     }
+      
+      h3 {
+          width: 100%;
+          font-style: italic;
+          font-size: 40px;
+          text-align: center;
+      }
+
+      .col-md-8 {
+         
+         border: solid;
+         border-width: 15px;
+         margin-top: 5px;
+         font-size: 18px;
+         padding: 5px;
+         
+      }
+
+      img {
+        border: solid;
+        margin: 9px;
+      }
+
+      #contact-form ul {
+  margin-bottom: 20px;
+}
+
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 90%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+}
+
+textarea {
+  height: 100px;
+}
+
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+  border: solid;
+}
+footer {
+      width: 100%;
+      border: solid;
+      color: white;
+      background-color: black;
+      height: 50px;
+      padding-top: 20px;
+      text-align: center;
+    }
+  </style>
+ <!-- END OF CSS CUSTOMIZATION AFTER BOOTSTRAP-->
+</head>
+<body>
+  
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid"> 
+    <div class="navbar-header">
+        <h1>Tony Waterfield's Webpage Development Portfolio</h1>
+      <a class="navbar-brand" href="#">Web Development Portfolio from the University of Richmond's Web Bootcamp:</a>
+    </div>
+    <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+  </div>
+</nav>      
+  
+<div class="container">
+  <h3>Contact Me and Make an Offer</h3>
+      <hr>
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+            <form id="contact-form">
+                    <ul>
+                      <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                      </li>
+                      <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                      </li>
+                      <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                      </li>
+                    </ul>
+                    <input type="submit">
+                  </form>
+
+    
+      </div>
+         
+
+<!-- END OF CONTAINER-->
+</div>  <!-- END OF CONTAINER-->
+<footer>
+  <div class="container">
+    Copyright &copy; 
+  </div>
+</footer>
+</body>
+</html>
