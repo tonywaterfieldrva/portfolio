@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Tony Waterfield Web Development</title>
+  <title>Tony Waterfield Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
   <!-- CSS CUSTOMIZATION AFTER BOOTSTRAP-->
   <style>
-      h1 {
+      /* h1 {
           text-align: center;
           font-size: 50px;
           font-style: italic;
@@ -56,27 +57,26 @@
       height: 50px;
       padding-top: 20px;
       text-align: center;
-    }
+    } */
   </style>
  <!-- END OF CSS CUSTOMIZATION AFTER BOOTSTRAP-->
 </head>
 <body>
   
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid"> 
-    <div class="navbar-header">
-        <h1>Tony Waterfield's Webpage Development Portfolio</h1>
-      <a class="navbar-brand" href="#">Web Development Portfolio from the University of Richmond's Web Bootcamp:</a>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <h1>Tony Waterfield's Bootcamp Portfolio</h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item" href="index.html">About</a>
+        <a class="nav-item" href="portfolio.html">Portfolio</a>
+        <a class="nav-item" href="contact.html">Contact</a>
+      </div>
     </div>
-    <ul class="nav navbar-nav">
-                        <!--      <li class="active"><a href="#">Home</a></li>-->
-          <li><a href="index.html">Home</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact Me</a></li>
-    </ul>
-  </div>
-</nav>      
+  </nav>   
   
 <div class="container">
   <h3>Webpage Portfolio</h3>  
@@ -96,15 +96,20 @@
         <br>
         <a href="https://afternoon-badlands-81318.herokuapp.com/">Friend Finder on Heroku</a>
         <br>
-        <a href="https://lucylane.herokuapp.com/">"Project 2 Lucy Lane Concert Venue on Heroku</a>
+        <a href="https://lucylane.herokuapp.com/">Project 2 Lucy Lane Concert Venue on Heroku</a>
       </div>
          
 
 </div>  <!-- END OF CONTAINER-->
 <footer>
-  <div class="container">
-    tonywaterfieldrva Copyright &copy; 
-  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <footer class="page-footer">
+        <!-- <a class="nav-item"><a> -->
+        <h5>TwRex Copyright: 2020></h5>
+
+      </div>
+</div>
 </footer>
 </body>
 </html>

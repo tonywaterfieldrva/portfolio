@@ -1,0 +1,194 @@
+body {
+    background-image: url("../images/img4.jpg");
+    margin: auto;
+    overflow-x:hidden;
+    
+  }
+
+.body_contact {
+  background-image: url("../images/img4.jpg");
+}
+  .portfolio_image {
+    padding-top: 5%;
+  }
+  
+  .portfolio_image:hover {
+    opacity: 0.8;
+  }
+
+  .info1 , .info2, .info3 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Luckiest Guy', cursive;
+  }
+  
+  .brand {
+    margin-left: 10%;
+   color: white;
+   font-family: 'Luckiest Guy', cursive;
+  }
+  
+  .navbar {
+    background: rgba(4, 7, 190, 0.6);
+    height: 85%;
+  }
+  
+  .navbar-nav {
+    margin-left: 65%;
+    /* font-size: 15px; */
+ 
+  }
+  
+  .container {
+    margin-top: 5%;
+    background:   rgba(4, 7, 190, 0.6);
+    margin-bottom: 10%;
+    /* padding-bottom: 2%; */
+    padding-left: 2%;
+
+  }
+  h1 {
+    font-size: 325%;
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+  }
+  
+  h2 {
+    padding-left: 3%;
+    padding-top: 3%;
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+    /* font-size: 120%; */
+  }
+  
+  h5 {
+    text-align: center;
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+  }
+  
+  hr {
+    background-color: white;
+    /* font-size: 130%; */
+  }
+  
+  .nav-item {
+    color: white;
+    font-size: 25px;
+    margin: 8%;
+    font-family: 'Luckiest Guy', cursive;
+    
+  }
+  
+  .nav-item:hover {
+    color: white;
+    /* font-size: 160%; */
+  }
+ 
+
+  .brand {
+    color:white;
+    /* font-size: 175%; */
+  }
+  
+  .brand:hover {
+    color: white;
+    /* font-size: 175%; */
+  }
+  
+  .page-footer {
+    margin-top: 3%;
+    background:  rgba(4, 7, 190, 0.6);
+    padding: 1%;
+    margin-bottom: 0%;
+    position: fixedrelative;
+    width: 100%
+  }
+  .submit {
+    color: white;
+    margin-bottom: 2%;
+    border: solid;
+    border-radius: 10px;
+  } 
+  
+  .card-title {
+    color: white;
+  }
+  
+  .label {
+    font-size: 150%;
+    color: white;
+    text-align: center;
+  }
+  
+  .link-games:hover {
+    color: white;
+  }
+  
+  .label:hover {
+    color: white;
+  }
+  
+  .bio {
+    font-size: 110%;
+    color: black;
+  }
+  
+  .sinkBottom {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+  }
+  
+  .card {
+    margin-top: 5%;
+  background: rgba(4, 7, 190, 0.6);
+  }
+  
+  .card3 {
+    margin-top: 5%;
+    background-color:  rgba(4, 7, 190, 0.6);
+    padding-top:2%;
+  }
+  .visit {
+    background-color: rgba(4, 7, 190, 0.6);
+    color: white;
+    border: solid;
+    border-radius: 10px;
+  }
+  
+  .visit:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .list-group {
+    padding: 3% 20% 0% 20%;
+  }
+  
+  .list-group-item {
+    color: rgba(4, 7, 190, 0.9);
+  }
+  
+  .profile {
+    padding-bottom: 5%;
+  }
+  
+  .icon {
+    margin-bottom: 2%;
+  }
+  
+  .container {
+    /* padding-top: 2px; */
+    border-radius: 15px;
+  }
+
+  h3 {
+    color: white;
+  }
+
+  a {
+    color:white;
+    font-size: 20px;
+  }
+   
